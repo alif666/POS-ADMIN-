@@ -1,0 +1,59 @@
+
+
+#heading{
+	background-color: #8cba71; 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 0px 2px 20px #AAAAAA;
+
+    
+}
+
+#headingText{
+	margin-top:3%;
+	color:#fff;
+
+}
+
+#headingText2{
+
+	margin-bottom: 8%;
+	color:#fff;
+	border-color: #000;
+	border-width: 2px;
+
+}
+
+#body_box{
+	padding:65px 65px 20px;
+	/*top: 50%;
+	left: 50%;
+	margin-left: -150px;*/
+	margin-top: -200px;
+	background-color: transparant;
+
+
+
+
+}
+
+
+
+
+#boxForm{
+
+}
+.animated {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}

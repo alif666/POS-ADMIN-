@@ -1,0 +1,83 @@
+@media (min-width: 992px) {
+  .container-scroll > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .container-scroll > .row > .col-md-2 {
+    display: inline-block;
+    float: none;
+  }
+}
+
+.modal-content{
+	
+	width : 1000px;
+	
+}
+.col-md-2{
+	width : 350px !important;
+	
+}
+
+.container-scroll > .row {
+  margin-top: 24px;
+}
+.container-scroll > .row > .col-md-2 {
+  text-align: left;
+}
+table.scroll {
+    width: 100%; /* Optional */
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+    border: 1px solid #aaa;
+}
+
+table.scroll tbody,
+table.scroll thead { display: block; }
+
+thead tr th { 
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+table.scroll tbody {
+    height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+thead{
+	background-color:#006693;
+	color:#FFF;
+}
+ thead th {
+    width: 20%;
+    border-right: 0px !important;
+}
+tbody { 
+	background-color: #FFF6CE;
+	
+	}
+tr{ border-bottom:1px solid #aaa !important;}
+
+tbody td{
+    color: #777;
+}
+
+tbody td, thead th {
+    width: 20%; /* Optional */
+    border-right: 1px solid #aaa;
+    padding: 0 5px;
+}
+
+tbody td:last-child, thead th:last-child {
+    border-right: none;
+}
+
+
+.form-control{6px 0;}
+
+
+
+
+
